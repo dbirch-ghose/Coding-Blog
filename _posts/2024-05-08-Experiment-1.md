@@ -6,6 +6,12 @@ date: 2024-05-15
 For my first experiment I played around with images and ways of distorting them.
 I started by from an in-class demonstration where we created a nested for loop to read the pixel data of an image and then change the size of the pixels.
 
-One loop cycles through the picture height, and the other the picture width, and they both calculate the pixel positions of each colour by moving through the pixels and adding an offset. These offset values are stored in variables which can be used to control the colour of the image. A rectangle is drawn using the step value added to the loop indexes which creates squares with sizes that can be controlled using the variable step, increasing the size means that the squares use an average of the colours that are there, making the image appear to be blurry.  
+One loop cycles through the picture height, and the other the picture width, and they both calculate the pixel positions of each colour by moving through the pixels and adding an offset. These offset values are stored in variables which can be used to control the colour of the image. A grid of rectangles is drawn using the step value added to the loop indexes which creates squares with sizes that can be controlled using the variable step, increasing the size means that the squares use an average of the colours that are there, making the image appear to be blurry.  
 ![parrot-pixels-1](parrot.png "Parrot")
 
+Later on in the same class, I changed the rectangles to ellipses and I began distorting the images by multiplying step by shade. Shade uses the brightness of the pixels to control the colour. 
+
+
+I then began experimenting on my own and used the value of the mouse postion to control the size of the ellipses. This created an interesting effect where the ellipses increase and stretchm, distorting the image and making it blurry.
+
+I tried to find interesting effects that can turn an image into something more visually appealing and creative. I changed the mouse position to increase the size of step instead of the size of the ellipses, and mutlitplied it by shade. Lighter colours had a thinner  
