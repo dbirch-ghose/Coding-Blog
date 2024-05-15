@@ -14,4 +14,4 @@ Later on in the same class, I changed the rectangles to ellipses and I began dis
 
 I then began experimenting on my own and used the value of the mouse postion to control the size of the ellipses. This created an interesting effect where the ellipses increase and stretchm, distorting the image and making it blurry.
 
-I tried to find interesting effects that can turn an image into something more visually appealing and creative. I changed the mouse position to increase the size of step instead of the size of the ellipses, and mutlitplied it by shade. Lighter colours had a thinner  
+I tried to find interesting effects that can turn an image into something more visually appealing and creative. I changed the mouse position to increase the size of step instead of the size of the ellipses, and mutlitplied it by shade divided by 255 to get a value between 0 and 1 and subtractd 1 to get the inverse, but only for the width of the ellipse. When moving the mouse the lighter colours had a thinner width while darker colours where full circles, which created an interesting effect.
