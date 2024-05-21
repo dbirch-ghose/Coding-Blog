@@ -24,6 +24,7 @@ Once I had this code, I began playing around with how I can draw the walker to c
 To make the patterns more pleasing to look at, I decided to add some colour. I did this by creating three variables for red, green and blue, and setting them to the number of shades of each colour by a noise value that is offset by a higher value for each colour. The offset means that noise values will start off different to each other so the colour the same for any of the variables. I used the variables as the rgb values for the stroke of the line and incremented the colours by 0.1 each time a new line is drawn so the colour slowly changes over time.  
 
 ![The code to change the stroke colour.](/Coding-Blog/images/walkers/walkers line colour.png)
-![A walker made of a line that changes colour over time.](/Coding-Blog/images/walkers/walkers 4.png)
+
+![A walker made of a line that changes colour over time.](/Coding-Blog/images/walkers/walkers 4 .png)
 
 https://editor.p5js.org/dbirch-ghose/sketches/Y6gbboPpq
