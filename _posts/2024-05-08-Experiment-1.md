@@ -8,9 +8,9 @@ I started by from an in-class demonstration where we created a nested for loop t
 
 One loop cycles through the picture height, and the other the picture width, and they both calculate the pixel positions of each colour by moving through the pixels and adding an offset. These offset values are stored in variables which can be used to control the colour of the image. A grid of rectangles is drawn using the step value added to the loop indexes which creates squares with sizes that can be controlled using the variable step, increasing the size means that the squares use an average of the colours that are there, making the image appear to be blurry. I first played round with the step size to create a very blurry image.
 
-- pixels step image
-- pixels 1 image
+
 ![The code for my first pixels experiment.](/Coding-Blog/images/pixels-1.png) 
+![The outcome of my first pixels experiment.](/Coding-Blog/images/pixels step 100.png) 
 
 Later on in the same class, I changed the rectangles to ellipses and I began distorting the images by multiplying step by shade. Shade creates an average of the values of the three pixels colours, using this creates a black and white image that shows the brightness of each pixel through an ellipse of different sizes.
 - pixels shade image
