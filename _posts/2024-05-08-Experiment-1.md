@@ -13,7 +13,7 @@ One loop cycles through the picture height, and the other the picture width, and
 ![The code for my first pixels experiment.](/Coding-Blog/images/pixels-1.png) 
 
 Later on in the same class, I changed the rectangles to ellipses and I began distorting the images by multiplying step by shade. Shade creates an average of the values of the three pixels colours, using this creates a black and white image that shows the brightness of each pixel through an ellipse of different sizes.
-- pixels shade image#
+- pixels shade image
   
 I played around further and created a streaky effect by only multiplying the ellipse width by shade. I also changed the colour of the image by swapping the order of the colours when using the fill function.
 -pixels shade 2 image
