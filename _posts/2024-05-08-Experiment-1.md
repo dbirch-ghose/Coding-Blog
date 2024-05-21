@@ -27,10 +27,6 @@ I tried to find interesting effects that can turn an image into something more v
 
 ![The code for my fourth pixels experiment.](/Coding-Blog/images/pixels/pixels xy distortion.png) 
 
-![The code for my fourth pixels experiment.](C:\Users\birch\OneDrive\Documents\GitHub\Coding-Blog\images\pixels\pixels xy distortion.png) 
-
-
-
 Then I changed the mouse position to increase the size of step instead of the size of the ellipses, and multiplied it by shade divided by 255 to get a value between 0 and 1 and subtracted 1 to get the inverse, but only for the width of the ellipse. When moving the mouse the lighter colours had a thinner width while darker colours where full circles, which created an interesting effect.
 
 ![The code for my first pixels experiment.](/Coding-Blog/images/pixels/pixels 5.png) 
