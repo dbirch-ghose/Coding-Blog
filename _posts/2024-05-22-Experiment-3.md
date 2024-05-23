@@ -26,5 +26,5 @@ Using the draw function instead of mousePressed made the lines draw at the mouse
 
 I wanted to make a sketch that used the mouse position to control shapes in different ways. I drew 2 ellipses and set one of them to a width of 200 and set the height to the mouse y value, and the other had a height of 200 and i set the width to the mouse x value, then set the size to the x and y value. This created two circles that move around and change size with the mouse.  
 
-![Two circles of changing sizes and positions.](/Coding-Blog/images/interaction/interaction circles.png) 
+![Two circles of changing sizes and positions.](/Coding-Blog/images/interaction/interaction-circles.png) 
 
