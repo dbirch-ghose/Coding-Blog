@@ -123,3 +123,48 @@ Here is the link to this [version.](/Coding-Blog/CreativeCode/3d_moving_shapes_b
 After these failed attempts I decided to take a new approach to see if I could get it to work. I used object orientation to create an array of cubes in the hopes that this would make it easy to control the attributes such as movement.
 
 To do this I followed an online tutorial that can be found [here.](https://medium.com/@thehappycoder42/3d-art-tutorial-2-3d-arrays-e220a1150f0d)
+
+
+The tutorial uses a nested for loop to draw cubes which are made in a class and store them in an array, and demonstrates how to create an 8x8x8 grid of cubes. Adapting this code allowed me to create another 3x3 grid of cubes which had spaces between.
+
+This for loop I used.
+```
+for (let i = -50; i < 50; i += 40)
+  {
+    for (let j = -50; j < 50; j += 40)
+    {
+      cube = new Cube(i, j, 0)
+      cubes.push(cube)
+    }
+  }
+```
+
+This 3x3 grid is linked [here.](/Coding-Blog/CreativeCode/3d_oo_1.2/index.html)
+
+This gave me the idea to create a 3x3x3 cube made of cubes that have more cubes in the gaps which will move back and forth and would hopefully look pleasing. I nested another loop into the for loop to create a third dimension, and then made a copy of the loop but changed the values to create another smaller grid in an offset position that filled the gaps of the cube to create an alternating pattern.
+
+```
+ for (let i = -50; i < 50; i += 40)
+  {
+    for (let j = -50; j < 50; j += 40)
+    {
+       for (let k = -50; k < 50; k += 40)
+      {
+      cube = new Cube(i, j, k)
+      cubes.push(cube)
+    }
+  }
+}
+  for (let i = -40; i < 40; i += 40)
+  {
+    for (let j = -40; j < 40; j += 40)
+    {
+       for (let k = -40; k < 40; k += 40)
+      {
+      cube = new Cube(i+10, j+10, k+10)
+      cubes.push(cube)
+    }
+  }
+}
+```
+This new grid is linked [here.](/Coding-Blog/CreativeCode/3d_oo_1.51/index.html)
