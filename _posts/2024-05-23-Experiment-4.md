@@ -21,7 +21,7 @@ The cubes can be rotated around using the mouse X and Y values divided by 200 so
 
 ![4 cubes with basic lighting.](/Coding-Blog/images/3d/3d_1_pic.png) 
 
-The running version is found [here.](/Coding-Blog/CreativeCode/3d_1/index.html)
+The running version is found [here.](/Coding-Blog/CreativeCode/3d_1_new/index.html)
 
 
 Making the first sketch reminded me of a 3D artwork made by the generative artist Dave Whyte which he titled Cube Wave. This inspired me to make something similar where I draw cubes and make them move in a pleasing pattern.

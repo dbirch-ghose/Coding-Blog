@@ -1,7 +1,7 @@
 //first experiment
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  createCanvas(600,600, WEBGL);
 }
 
 function draw() {
