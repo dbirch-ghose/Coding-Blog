@@ -69,7 +69,7 @@ To make the patterns more pleasing to look at, I decided to add some colour. I d
 
 ![A walker made of a line that changes colour over time.](/Coding-Blog/images/walkers/walkers 4 .png)
 
-Here is the running version for my [final experiment](/Coding-Blog/CreativeCode/walkers_4/index.html)
+Here is the running version for my [final experiment.](/Coding-Blog/CreativeCode/walkers_4/index.html)
 
 
 https://editor.p5js.org/dbirch-ghose/sketches/Y6gbboPpq
