@@ -8,6 +8,19 @@ I started by from an in-class demonstration where we created a nested for loop t
 
 One loop cycles through the picture height, and the other the picture width, and they both calculate the pixel positions of each colour by moving through the pixels and adding an offset. These offset values are stored in variables which can be used to control the colour of the image. A grid of rectangles is drawn using the step value added to the loop indexes which creates squares with sizes that can be controlled using the variable step, increasing the size means that the squares use an average of the colours that are there, making the image appear to be blurry. I first played round with the step size to create a very blurry image.
 
+```
+for(let j=0; j<pic.height; j+= step){
+    for(let i=0; i<pic.width; i+=step){
+      let offset=(pic.width*j+i)*4
+      let pixelRed=pic.pixels[offset]
+      let pixelGreen=pic.pixels[offset+1]
+      let pixelBlue=pic.pixels[offset+2]
+      let shade=(pixelRed+pixelGreen+pixelBlue)/3
+      fill(pixelRed, pixelGreen, pixelBlue)
+      rect(i,j,step,step)
+    }
+  }
+```
 
 ![The code for my first pixels experiment.](/Coding-Blog/images/pixels/pixels-1.png) 
 
