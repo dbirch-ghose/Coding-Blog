@@ -24,7 +24,10 @@ The cubes can be rotated around using the mouse X and Y values divided by 200 so
 The running version is found [here.](/Coding-Blog/CreativeCode/3d_1/index.html)
 
 
-Making the first sketch reminded me of a 3D artwork made by the generative artist Dave Whyte which he titles Cube Wave.
+Making the first sketch reminded me of a 3D artwork made by the generative artist Dave Whyte which he titled Cube Wave. This inspired me to make something similar where I draw cubes and make them move in a pleasing pattern.
 
 ![Cube Wave by Dave Whyte of Bees and Bombs.](/Coding-Blog/images/3d/cube_wave.gif) 
 
+I started this process by trying to get the cubes to move. I used a tutorial on youtube to find code to move the shapes how I wanted to.
+
+Here is a link to the [tutorial.](https://www.youtube.com/watch?v=xB6-NC_nKKY)
