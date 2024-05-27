@@ -72,4 +72,3 @@ To make the patterns more pleasing to look at, I decided to add some colour. I d
 Here is the running version for my [final experiment.](/Coding-Blog/CreativeCode/walkers_4/index.html)
 
 
-https://editor.p5js.org/dbirch-ghose/sketches/Y6gbboPpq
