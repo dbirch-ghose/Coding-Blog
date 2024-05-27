@@ -117,3 +117,9 @@ function moveCubes2(){
 ```
 
 Here is the link to this [version.](/Coding-Blog/CreativeCode/3d_moving_shapes_broken_3/index.html)
+
+
+
+After these failed attempts I decided to take a new approach to see if I could get it to work. I used object orientation to create an array of cubes in the hopes that this would make it easy to control the attributes such as movement.
+
+To do this I followed an online tutorial that can be found [here.](https://medium.com/@thehappycoder42/3d-art-tutorial-2-3d-arrays-e220a1150f0d)
