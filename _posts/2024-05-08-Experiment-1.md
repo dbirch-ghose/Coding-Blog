@@ -31,4 +31,6 @@ Then I changed the mouse position to increase the size of step instead of the si
 
 ![The code for my first pixels experiment.](/Coding-Blog/images/pixels/pixels 5.png) 
 
+Here is the [code for my final version](/Coding-Blog/CreativeCode/pixels_5/index.html)
+
 https://editor.p5js.org/dbirch-ghose/sketches/cKPc_g54Q
