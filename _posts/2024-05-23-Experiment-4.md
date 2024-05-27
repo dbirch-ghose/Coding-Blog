@@ -31,3 +31,55 @@ Making the first sketch reminded me of a 3D artwork made by the generative artis
 I started this process by trying to get the cubes to move. I used a tutorial on youtube to find code to move the shapes how I wanted to.
 
 Here is a link to the [tutorial.](https://www.youtube.com/watch?v=xB6-NC_nKKY)
+
+The shapes move using the code attached below, by setting the y coordinate of the cubes the the variable x which changes when the cube reaches a certain height. I also decided to use the `orbitControl()` function instead of using the mouse position to rotate the shapes as the previous method rotated the shapes from the corner of the first cube, rather than the center of the whole shape.
+
+```
+  if (direction == "up"){
+    x=x-1
+  }
+  if(direction== "down"){
+    x=x+1
+  }
+  if (x<=-25){
+    direction = "down";
+  }
+    if (x>=75){
+    direction = "up";
+  }
+```
+
+Here is the link to [the first version with movement.](/Coding-Blog/CreativeCode/3d_moving_shapes_1/index.html)
+
+Now that I had movement, I wanted to be able to draw more cubes in a more efficient way, because at this point I was plotting the cubes's coordinates one by one. I decided to use a for loop so I wouldn't have to repeat code and this worked by setting the x,y and z values to variables with the coordinates of the first cube, and adding 50 to the x value after each loop.
+
+```
+  x= -25
+  y= -25
+  z= 25
+
+  for(let i=0; i<numSquares; i++){
+    newSquare()
+    x+=50
+  }
+
+function newSquare(){
+  noStroke()
+  push()
+  translate(x,y,z)
+  box(50)
+  pop()
+}
+```
+
+Here is the link to [the experiment with the loop.](/Coding-Blog/CreativeCode/3d_loop/index.html)
+
+Next I tried to combine the previous two experiments together so I put the code for the movement in a function and called this function in the for loop however this didn't work as nothing happened. Instead I put the movement code into the newCubes() function that plots the cubes and I incremented the y coordinate by the movement variable. This created a very messy and inconsistent movement that I wasn't able to fix. 
+
+Here is the link to the [broken version.](/Coding-Blog/CreativeCode/3d_loop_movement_broken/index.html)
+
+
+
+woudlnt work with the loop
+so i took itout the loop and try to build it thelong way
+couldnt get the shapes to move at the right times
