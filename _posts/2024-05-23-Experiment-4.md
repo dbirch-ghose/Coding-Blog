@@ -79,7 +79,41 @@ Next I tried to combine the previous two experiments together so I put the code 
 Here is the link to the [broken version.](/Coding-Blog/CreativeCode/3d_loop_movement_broken/index.html)
 
 
+I then attempted to create the moving effect by plotting the cubes individually, while this wouldn't be efficient, it was the only way I knew the movement I already had would work. 
 
-woudlnt work with the loop
-so i took itout the loop and try to build it thelong way
-couldnt get the shapes to move at the right times
+I began by plotting a 3x3 grid of cubes and I made two different functions for the movement of the cubes with different heights so certain cubes would move down further before moving back up again. The two movement functions worked separately however when I called both of them at once, the cubes moved to the height of only one of the functions even though they weren't all set to the same distance. 
+
+Below is the code for the functions.  
+
+```
+function moveCubes1(){
+   if (direction == "up"){
+    x=x-1
+  }
+  if(direction== "down"){
+    x=x+1
+  }
+  if (x<=-25){
+    direction = "down";
+  }
+    if (x>=175){
+    direction = "up";
+  }
+}
+function moveCubes2(){
+   if (direction == "up"){
+    m=m-1
+  }
+  if(direction== "down"){
+    m=m+1
+  }
+  if (m<=-25){
+    direction = "down";
+  }
+    if (m>=75){
+    direction = "up";
+  }
+}
+```
+
+Here is the link to this [version.](/Coding-Blog/CreativeCode/3d_moving_shapes_broken_3/index.html)
