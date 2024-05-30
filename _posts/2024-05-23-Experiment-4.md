@@ -172,4 +172,4 @@ This new grid is linked [here.](/Coding-Blog/CreativeCode/3d_oo_1.51/index.html)
 
 I was unable to find a way to get the shapes to move as the values used to draw the locations of the cubes were inside the for loop which is called at once, and making any changes to the location of the cubes caused the editor to freeze, or didn't make any changes at all. Instead I made the shapes rotate instead of using orbitControl(). This made it more  fun to look at due to the interesting layout as well as the lighting. 
 
-The final version is linked [here.](/Coding-Blog/CreativeCode/3d_oo_rotation2/index.html)
+The final version is linked [here.](/Coding-Blog/CreativeCode/3d_oo-rotation2/index.html)
